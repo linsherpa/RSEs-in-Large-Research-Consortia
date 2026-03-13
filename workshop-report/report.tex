@@ -1,0 +1,237 @@
+\documentclass{eceasst}
+% This is the source of the author documentation
+% for the ECEASST document class.
+
+% Required packages
+% =================
+\usepackage{subfig}
+\usepackage{color}
+\usepackage{orcidlink}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{accsupp}
+
+
+% PDF accessibility and PDF metadata
+\newcommand{\authorRef}[1]{\texorpdfstring{\autref{#1}}{}}
+\newcommand{\authorOrcid}[1]{\texorpdfstring{\thinspace\orcidlink{#1}\thinspace}{}}
+\newcommand{\geprislink}[1]{\href{https://gepris.dfg.de/gepris/projekt/#1?language=en}{#1}}
+
+\newcommand{\Eg}{E.\,g.}
+\newcommand{\eg}{e.\,g.}
+
+
+\definecolor{easstblue}{rgb}{.05,.32,.66}
+
+
+
+\title{INF Projects in Germany's CRCs - an overview and lessons learned}
+\short{INF Projects in Germany's CRCs}
+
+\author{
+Hamza Oukili \authorRef{1},
+Florian Goth\authorOrcid{0000-0003-2707-4790}\authorRef{2},
+} % Authors and references to addresses
+\institute{% Institutes with labels
+\autlabel{1} Institut für Wasser- und Umweltsystemmodellierung, Technische Universität Stuttgart\\,
+\autlabel{2} Institut für theoretische Physik 1, University of Würzburg, 97074, Würzburg\\,
+\autlabel{3} Another Place\\
+}
+
+
+\abstract{% Abstract of the article
+In the Research funding landscape of Germany, so-called collaborative Research Centers(CRCs)
+play a crucial role in the competitive funding steered by the German Research Society.
+Since digital tools have become commonplace in acaemic research also evermore processes in the research cycle require their use.
+It has become commonplace to pool certain tasks in dedicated units within the CRCs, the so-called INF projects.
+This report tries to catalogue the INF projects in Germany's research landscape as far as possible.
+Building on that and on the workshop held at de-RSE26 we collect lessons learned across INF projects and try to distill
+our discussion into guides that other INF projects (or similar structures ) can follow.
+}
+\keywords{INF, CRCs, DFG}
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+In the Research funding landscape of Germany, so-called collaborative Research Centers(CRCs)
+play a crucial role in the competitive funding steered by the German Research Society.
+Since digital tools have become commonplace in acaemic research also evermore processes in the research cycle require their use.
+It has become commonplace to pool certain tasks in dedicated units within the CRCs, the so-called INF projects.
+This report tries to catalogue the INF projects in Germany's research landscape as far as possible.
+Building on that and on the workshop held at de-RSE26 we collect lessons learned across INF projects and try to distill
+our discussion into guides that other INF projects (or similar structures ) can follow.
+
+\section{INF Projects in Germany}
+In this section we describe the various INF projects in Germany, how they see themselves and which duties they perform.
+In this paper we exclusively refer to these projects as INF projects, but within the resepective CRCs, also other acronyms are used.
+
+\subsection{Project Z03 - Sustainable code development and optimization on modern supercomputing architectures, \href{https://gepris.dfg.de/gepris/projekt/258499086?language=en}{SFB1170 - Topological and Correlated Electronics at Surfaces and Interfaces, ``ToCoTronics''}, Universität Würzburg}
+Established in 2015 as a support unit for the theoretically working departments the focus was on numerical methods for Quantum Monte Carlo methods, functional renormalization group techniques and non-equilibrium Green's function techniques. These methods are usually used on
+Germany's HPC systems, therefore the tight integration between software development, deep knowledge about the methods used in the CRCs science and a knowledge about the targeted platforms became paramount to this INF project staffed by one person.
+To facilitate the spread of knowledge regular teaching opportunities were organised based on the materials of \href{https://carpentries.org/}{the Carpentries} in collaboration with the local biology department.
+From the very beginning also the maintenance of the local IT infrastructure of the physics department was part of the project which included
+storage systems, desktops, as well as an HPC system.
+This integration of maintaining the IT infrastructure while at the same time focussing on sustainable development
+facilitated the roll-out of a local gitlab instance for the entire department which has grown by 2026 to $\approx 1000$ users from all
+over the world. Networking opportunities were used by participating in the RSE movement, which included the formation of the de-RSE society in 2018. This broad network enabled the project to write the data management strategy of the EXC2147 which was successfully reviewed in 2019.
+Now also data management questions were part of this project.
+The continued usefulness of this project was acknowledged by the DFG since a second funding round of the SFB1170 was granted also in 2019.
+2020 was used for the formation of a local chapter ``Wü-RSE'' to provide a place
+locally for like-minded people. The project was extended in 2023 for the last funding period. A highlight for this project's visibility included the hosting of de-RSE24, bringing the community of RSEs to Würzburg. Embedded into the community of RSEs, this project contributed
+to numerous position papers over the years.FIXME:cite them\\
+This project spans the breadth of digital tools in science from a single machine up to HPC clusters, from data generation, over data analysis upto data storage, collaborating with single scientists as well as larger research groups. This required a flexibility in the tooling, which obviously used git, but led to the use of C++, Python, Mathematica, Fortran, an Julia for programming. The CRC1170 and EXC2147 are supporters of the FairMat NFDI consortium, so this data platform is used in the department. FIXME: SHORTEN....
+
+\subsection{Project Z0X - project title, SFBZZZZ - SFB/TRR title, cities}
+- what domain are you from, what was the project idea you were based on?\\
+- What are the tasks you did focus on, RDM vs RSE vs Teaching vs. sth else?\\
+- Which networks are you part of?\\
+- What have you learned in this project?\\
+
+\subsection{Project Z0X - project title, SFBZZZZ - SFB/TRR title, cities}
+- what domain are you from, what was the project idea you were based on?\\
+- What are the tasks you did focus on, RDM vs RSE vs Teaching vs. sth else?\\
+- Which networks are you part of?\\
+- What have you learned in this project?\\
+
+
+\subsection{Project Z0X - project title, SFBZZZZ - SFB/TRR title, cities}
+- what domain are you from, what was the project idea you were based on?\\
+- What are the tasks you did focus on, RDM vs RSE vs Teaching vs. sth else?\\
+- Which networks are you part of?\\
+- What have you learned in this project?\\
+
+\section{Lessons learned - Guides}
+In this section we summarise the lessons we have learned together in this workshop.
+\subsection{Outreach, Collaboration and Networking}
+Here we discuss, how can we become known to the scientists in our CRCs, how do we collaborate with them, and which networks out there can help us.
+
+Discussion Group 1\\
+
+- annual status meetings and PhD candidate meetings: okish
+- social media plattforms (linkedin, ...): works, because scientists/communities already use it
+- phd schools
+- internal project pairings on working level: worked
+- didn't work: things that are not backed by the PIs / project
+- creating networks between non-INF projects was easier than INF<->non-INF projects
+- use courses for outreach
+- outreach/networking sometimes seen as INF-PI's task
+- outreach easier with open development
+- retreats (quarterly) really useful
+
+Discussion Group 3\\
+
+Explain, changing teams , monthly. Coming to this workshop
+
+Dedicated team. The link of expertise. Providing support providing training. Evangelists, ELNs,
+How to use them the older PIs difficult. Exchanging ideas that are generic.
+RDM services
+Training services for neuroschientists
+Exchanging ideas.
+RDM teaching hard to convey too little time, additional hassle , science on the side in the medical field. Biologists don't care about oppenness. No pressure from community.
+
+Maintaining checklists. They don't have to do it. Collaboration more flexibility.
+
+The main common standards, community driven, but difficult depending on the discipline. Bureaucracy no one wants to do but setting good standards. Mediation, betwwen different fields. But the data solution are similar. Propose projects, help. Informal talks, led to collaborate,
+
+Networks help collaborate exchange ideas.
+
+Mathematician in between biologists.
+
+Meetings, regularly
+
+\subsection{How do we educate scientists and ourselves}
+Here we focus on training aspects. These can be our scientists, or also ourselves.\\
+
+Possible keywords: education topics, training others, training of ourselves(e.g. through NFDI), career development,
+
+- can lookup courses online by themselves
+    - hard to find **relevant** training
+    - tailoring training to audience is very important
+    - getting domain specific tools integrated into training is challenging
+	- can be harmful: glass-half-full problem when first following "wrong solution"
+- need consulting with their specific use cases
+- in some fields: certifications are challenging
+    - unknowns on both sides (INF vs non-INF): information exchange needed
+- basic training often done by INF team itself
+- make use of DRC-external training courses if possible
+- training of SEs also important
+- some have position excplicitly for training (not just INF-related)
+    - learned on the job
+	- problem: lack of publications
+
+\subsection{Reproducibility, Quality and Validation of the artifacts we are creating}
+Having received proper training, how do we validate the artifacs that are created during our work?\\
+Possible keywords: long term archiving measures, containerization, research and software reproducibility, Verification and Validation(e.g. Performance), Software quality, badges,\\
+
+Discussion Group 1 \\
+Visualisation of data, then verification by experts. Patients data is very sensitive and confidential.
+Using AI to suggest metadata.
+Pipeline to prepare the final check by human in the loop.
+
+From poster notes: Integrate data and pipelines from different repos at different locations:
+- Quality checks from each source individually.
+- Manual checks, visulization by experts.
+- ML classification of metadata in natural sciences.
+
+
+Discussion Group 2\\
+AI problem. Containerisation. The bigger the software the harder it is.
+Namespaces.
+
+mardi packaging sytem.
+
+Already know, probelm how to implement.
+
+Dynamic datasets, difficult to reproduce. Chunk, with doi jupyter notebook file this is the way document edge cases For each edge case there is a special going to notebooks with peer review. hundreds run through. different results dynamic data random seeds. what there percentage likelihood. Containerisation. specific solutions where was the data not the url but the actual data. Hackatons. dependencies not declared modular not found data files.
+
+Pixy python giga science
+
+Jülich model for ariculture reproducibility for decades geo
+
+
+Discussion Group 3\\
+
+Human in the loop, Survey data and tool. Metadata extraction.
+Human sensititve data rom clinique long term hard drives usability?
+
+DaRUS Upload to. But the user did he do a good job in metadata.
+GitLab, GitHub. RDM with LLMs. Locally hosted. open router. Temperature not controlable. Metadata extraction by the help of the researchers no problem if animals.
+
+Good documentation examples Jupyter notebook. ELNs chemotion, sciformation.
+eLabFTW.
+
+Automatic tests to reproduce check if everything breaks. CI/CD pipelines. Some tests are random to check if everything works what ever the case.
+
+
+\subsection{Workflows and pipelines}
+Having created pieces of software, we need to integrate them into longer stages of pipelines
+
+Possible keywords: RDM, workflow(e.g. from NFDI), best practices, AI practices and research workflows\\
+
+A big benefit are workflow platforms. Examples of this are Galaxy, Taverna, and workflowhub. The use of standardised languages like CWL would be beneficial.
+Examples of these languages are Mardiflow, snakemake and nextflow. Since github and gitlab pipelines offer similar features, they are also useful.
+But with this there come downsides:
+So this requires training. Since you have to detail your steps in a standardized language you also have to learn it. So this requires Coding practise.
+THe adaptation of pipelines and version changes can bring the well-known problem of Maintenance.
+Workflows have to be permitted in the respective domain, So it can be, that the use of a workflow requires approvals, e.g. by an ethics board or similar.
+Workflow languages currently definitively have a low reach into the user base
+Findability of hte respective resposible users is a problem.
+It can be difficult to get the permission to use input data
+Re-Use and Maintenence are an issue.
+There is a lack of awareness for the benefits of automation, that often leads to people not doing the first steps.
+Possible solutions are the use of an RAG supported Chat-Agent or scientists, or an easy/good Documentation.
+
+\section{Summary}
+I would like to end this on something that binds the INF projects together irrespective of the domain they are in.
+Any other ideas for a summary?
+
+\begin{acknowledge}
+We acknowledge the hospitality of the university of Stuttgart for hosting this workshop.
+FG acknowledges funding from the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) through the SFB 1170 “Tocotronics”, project Z03 - project number \geprislink{258499086}.
+\end{acknowledge}
+
+\nocite{*}
+\bibliographystyle{eceasst}
+\bibliography{report}
+
+\end{document}
