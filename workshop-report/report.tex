@@ -23,6 +23,23 @@
 \newcommand{\Eg}{E.\,g.}
 \newcommand{\eg}{e.\,g.}
 
+% ================================
+% Environment for AI Use
+% ================================
+\newenvironment{aiuse}{%
+  \par\vspace{11pt}%
+  \noindent\textbf{Declaration on the use of AI:}\enspace}{%
+  \par\vspace{11pt}}
+
+% ================================
+% Environment for Data availability
+% ================================
+\newenvironment{data}{%
+  \par\vspace{11pt}%
+  \noindent\textbf{Data availability:}\enspace}{%
+  \par\vspace{11pt}}
+
+
 
 \definecolor{easstblue}{rgb}{.05,.32,.66}
 
@@ -359,6 +376,13 @@ MG, MP, LFB, AM, FP acknowledge funding from the DFG through the TRR 418 " Found
 MM acknowledge the funding from DFG, SFB 1646/1 2024 -- \geprislink{512393437}, project INF. 
 
 \end{acknowledge}
+
+\begin{aiuse}
+AI has been used for copyediting purposes.
+\end{aiuse}
+
+\begin{data}
+\end{data}
 
 \bibliographystyle{eceasst}
 \bibliography{report}
